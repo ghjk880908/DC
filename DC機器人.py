@@ -96,5 +96,5 @@ async def 去背(ctx):
     await ctx.send("馬上為您送上神級去背工具：\n🔗 https://tools.dverso.io/bgremove/")
 
 # ⚠️ 記得換成你的 Token
-bot.run('MTQ4NDAxMDM5Mjk3MDU5MjMwNg.GJF9DR.IgqwEFGdYKranp5nfNUUlXwFQIdff_nX-XC9vc')
+bot.run(os.getenv('BOT_TOKEN'))
 
